@@ -1,3 +1,14 @@
+import Layout from "../components/template/Layout";
+
 export default function Home() {
-  return <div>e aí</div>;
+  return (
+    <div>
+      <Layout
+        titulo="Pàgina Inicial"
+        subtitulo="Estamos construindo um template admin"
+      >
+        <h3>Conteudo</h3>
+      </Layout>
+    </div>
+  );
 }
