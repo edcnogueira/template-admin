@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Layout
-        titulo="Pàgina Inicial"
+        titulo="Página Inicial"
         subtitulo="Estamos construindo um template admin"
       >
         <h3>Conteudo</h3>
