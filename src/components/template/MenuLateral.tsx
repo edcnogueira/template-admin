@@ -1,7 +1,14 @@
+import { BellIcon, HomeIcon, SettingsIcon } from "../icons";
+import MenuItem from "./MenuItem";
+
 export default function MenuLateral() {
   return (
     <aside>
-      <h1>Menu</h1>
+      <ul>
+        <MenuItem url="/" texto="Início" icone={HomeIcon} />
+        <MenuItem url="/ajustes" texto="Ajustes" icone={SettingsIcon} />
+        <MenuItem url="/notificacoes" texto="Notificações" icone={BellIcon} />
+      </ul>
     </aside>
   );
 }
